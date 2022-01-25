@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar .clasic-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .clasic-list .item{
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.navbar .clasic-list .item .link{
+    display: inline-block;
+    padding: 7px 15px;
+    color: #000;
+}
